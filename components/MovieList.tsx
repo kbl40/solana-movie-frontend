@@ -3,7 +3,7 @@ import { FC, useEffect, useState } from 'react'
 import { Movie } from '../models/Movie'
 import * as Web3 from '@solana/web3.js'
 
-const MOVIE_REVIEW_PROGRAM_ID = '7WqFjJgTYzyLkqaEk8Bst1fuhspjudPKFrmdqCKRCi6b'
+const MOVIE_REVIEW_PROGRAM_ID = 'Ei8Cx9wMHmzmzo1bUuh2PmoTkyhTptdsnF9tiea2QJVv'
 
 export const MovieList: FC = () => {
     const [movies, setMovies] = useState<Movie[]>([])
